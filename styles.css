@@ -1,0 +1,26 @@
+:root {
+    --background-color-gradient: linear-gradient(180deg, #000 18.11%, #041B3A 28.13%, #09264D 56.77%, #000 100%);
+    --caption-color: #FFFFFF;
+    --secondary-legend-color: #F9F9F9;
+    --button-color: #167BF7;
+}  
+
+body {
+    background: var(--background-color-gradient);
+    color: var(--caption-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primary {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
