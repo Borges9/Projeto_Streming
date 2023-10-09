@@ -132,3 +132,34 @@ body {
     display: inline-block;
     margin-top: 1em;
 }
+
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    color: var(--caption-color);
+    text-align: center;
+    font-family: var(--main-source);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; 
+    margin: 5em 0;
+}
+
+.list__item {
+    color: var(--caption-color);
+    text-align: center;
+    font-family: var(--main-source);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
