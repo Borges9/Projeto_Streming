@@ -196,3 +196,36 @@ body {
     font-weight: 400;
     margin: 1em 0;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+
+    }
+
+    .box__img {
+        width: 50vw;
+    }
+
+    .container__box {
+        margin: 2em 2em;
+    }
+
+    .secondary {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secondary__img {
+        width: 50vw;
+    }
+
+    .devices__list {
+        display: block;
+    }
+
+    .footer__list {
+        display: block;
+    }
+}
